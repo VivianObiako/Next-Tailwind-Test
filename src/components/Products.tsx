@@ -18,7 +18,7 @@ const LatestProducts = ({
   products: Product[];
 }) => {
   return (
-    <div className="font-powerGrotesk w-full px-6 md:px-24">
+    <div className="font-powerGrotesk w-full px-6 pt-6 md:px-24">
       <div className="flex w-full items-center justify-between">
         <h1 className="text-2xl font-medium uppercase">{title}</h1>
         <a className="cursor-pointer text-sm font-medium font-articulat leading-5 border-b border-gray-950">
